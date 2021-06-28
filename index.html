@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>shoping card</title>
+      
+<link rel="stylesheet" href="https://
+cdnjs.cloudflare.com/ajax/libs/font-
+awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+<link rel="stylesheet"  href="card.css">
+    </head>
+    <body>
+    <div class="boat"><h1 class="a">ProductHub.com</h1> </div>
+        <div class="main">
+           <div class="product" onclick="pro()"></div>
+           <div class="rev">
+           <i class="fa fa-star"></i>
+               
+           <i class="fa fa-star"></i>
+               
+           <i class="fa fa-star"></i>
+               
+           <i class="fa fa-star"></i>
+               
+           <i class="fa fa-star-half-o"></i>
+            97.4k reviews
+           </div>
+           <div class="pname">
+               BOAT Storm (Airpods)
+           </div>
+           <div class="price">
+               Rs. 2,999.00 <del>Rs. 5,999.00</del>
+           </div>
+           <ul class="lis">
+               <li>Comfort with style</li>
+               <li>Groove on boat's signature HD sound</li>
+               <li>Super sound 40nm drivers</li>
+           </ul>
+           <div class="buy">
+               <button id="btn" onclick="add()">Shop Now</button>
+   <script>          
+              const add =()=>{
+    swal({
+title:"🥳Congratulations 🎉",
+text:"Thank you for buying this product!",
+type:"success",
+confirmButtonText:"Buy More",
+});
+}
+const pro =()=>{
+    alert("😀Full screen pocture is not found right now !!!")
+    
+}  </script>
+           </div>
+        </div>
+    </body>
+    
+</html>
